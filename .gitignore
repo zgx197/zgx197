@@ -1,0 +1,21 @@
+# System files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Editor settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+vendor/bundle/
+
+# Build and cache outputs
+dist/
+build/
+.cache/
+coverage/
