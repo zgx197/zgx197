@@ -1,3 +1,11 @@
+<p align="center">
+  以 AI 工具、游戏开发与工程实验为主线，持续补齐渲染、优化、系统与模型训练能力。
+</p>
+
+<p align="center">
+  AI Tooling · Game Development · Rendering · Optimization · Systems · LLM Training
+</p>
+
 ## 关于这里
 
 这里主要记录我正在推进的开源项目，以及一些持续打磨中的工具、工作流和游戏原型。
@@ -11,7 +19,7 @@
 - 从设计到交付的工程化流程
 - 文档、约定与可复用结构的持续沉淀
 
-## Current Focus
+## 当前重点
 
 ### [resume-interview-workbench](https://github.com/zgx197/resume-interview-workbench)
 
@@ -24,7 +32,7 @@
 2. 给多轮追问流程补上可视化日志。
 3. 统一面试总结和评分结果的输出结构。
 
-## Other Projects
+## 其他项目
 
 | 项目 | 项目状态 | 方向 | 后续方向 |
 | --- | --- | --- | --- |
@@ -42,6 +50,7 @@
 
 | 探索方向 | 当前内容 | 状态 | 关注点 |
 | --- | --- | --- | --- |
+| 游戏引擎使用与工程经验 | 待创建 | `计划中` | 继续沉淀 Unity / Godot 在组件组织、资源管理、调试流程和常见开发问题上的实践经验。 |
 | 游戏渲染 | 待创建 | `计划中` | 围绕 Unity URP 渲染管线、渲染特性和效果实现做拆解与练习。 |
 | 游戏优化 | 待创建 | `计划中` | 针对 GC 优化、DrawCall 优化和运行时开销做小型验证项目。 |
 | 语言模型训练 | [MiniMind](https://github.com/jingyaogong/minimind) | `学习中` | 跟着源码梳理从零开始的 PyTorch 训练流水线，并补自己的实验记录。 |
