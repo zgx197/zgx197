@@ -12,24 +12,24 @@
 
 ## 当前重点
 
-### [resume-interview-workbench](https://github.com/zgx197/resume-interview-workbench)
+### [Tessera](https://github.com/zgx197/Tessera)
 
-本地 AI 面试工作台，面向结构化简历、岗位模板与可观测多轮追问。
+面向游戏的随机世界生成框架，围绕“同一种子稳定生成自洽世界”来组织地貌、水系、气候、生态与后续玩法承载层。
 
-当前里程碑：面试链路与结果可观测性
+当前里程碑：夯实世界生成底盘与调试工作台
 
 近期迭代目标：
-1. 把岗位模板配置收敛成固定格式。
-2. 给多轮追问流程补上可视化日志。
-3. 统一面试总结和评分结果的输出结构。
+1. 继续收敛核心术语、目录结构和阶段边界。
+2. 稳定六边形网格、世界数据模型与确定性随机数链路。
+3. 推进最小可视化地形生成流程，并为水文、气候和生态层预留接口。
 
 ## 项目与实验
 
 ### 持续项目
 
-- **[offboarding-agent](https://github.com/zgx197/offboarding-agent)**  
+- **[resume-interview-workbench](https://github.com/zgx197/resume-interview-workbench)**  
   迭代中 · AI 工具链  
-  继续完善仓库扫描、风险识别和交接文档生成链路。
+  继续打磨结构化简历、岗位模板与可观测多轮追问的本地 AI 面试工作台。
 
 - **[TileMatcher](https://github.com/zgx197/TileMatcher)**  
   迭代中 · 游戏与玩法  
