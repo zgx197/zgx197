@@ -27,10 +27,6 @@
 
 ### 持续项目
 
-- **[resume-interview-workbench](https://github.com/zgx197/resume-interview-workbench)**  
-  迭代中 · AI 工具链  
-  继续打磨结构化简历、岗位模板与可观测多轮追问的本地 AI 面试工作台。
-
 - **[TileMatcher](https://github.com/zgx197/TileMatcher)**  
   迭代中 · 游戏与玩法  
   继续补玩法反馈、关卡表现和宠物养成内容。
@@ -54,8 +50,8 @@
   继续沉淀 Unity / Godot 在组件组织、资源管理、调试流程和常见开发问题上的实践经验。
 
 - **游戏渲染**  
-  计划中 · 待创建  
-  围绕 Unity URP 渲染管线、渲染特性和效果实现做拆解与练习。
+  学习中 · [gfx-practice](https://github.com/zgx197/gfx-practice)  
+  继续围绕通用游戏渲染管线、渲染特性与图形效果实现做拆解、练习与记录。
 
 - **游戏优化**  
   计划中 · 待创建  
