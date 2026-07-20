@@ -12,22 +12,28 @@
 
 ## 当前重点
 
-### [Tessera](https://github.com/zgx197/Tessera)
+### [Sky Island Rebirth](https://github.com/zgx197/sky-island-rebirth)
 
-从具体游戏需求出发的世界与地图技术探索。先明确玩家体验、核心循环和主要空间尺度，再决定需要战略世界图、区域图、局部 Site 地图中的哪些层级，并由真实玩法反推地貌、水文、气候、生态、持久化与 LOD 能力。
+以一款实际运行的游戏为核心，持续验证 Babylon.js 的引擎能力、项目侧 ECS、场景组织、运行时可观测性、性能边界与智能体辅助调试流程。
 
-<p align="center">
-  <img src="./assets/tessera-current.png" alt="Tessera 当前世界生成与调试界面" width="100%" />
-</p>
-
-当前里程碑：明确游戏定位与最小可玩切片
-
-现有确定性世界生成原型保留为候选技术基线，但暂停脱离游戏需求的扩展。
+当前里程碑：建立可观测的最小 ECS 游戏运行闭环
 
 近期迭代目标：
-1. 定义一句话游戏定位、玩家核心幻想和 5–10 分钟核心循环。
-2. 明确世界图、区域图与局部 Site 地图的职责，以及玩家主要活动的空间尺度。
-3. 先用手工或简单随机地图验证最小可玩原型，再反推真正需要的世界生成、持久化和 LOD 能力。
+1. 完成纯逻辑 ECS smoke flow，并持续记录实体、组件、系统耗时和帧状态。
+2. 通过真实场景验证 Babylon.js 的渲染、资源、编辑器接入、调试和性能能力。
+3. 明确第一段可玩的核心循环，让后续技术建设始终服务于游戏体验。
+4. 从实际玩法中提炼世界、区域和局部地图需求，再把经过验证的能力沉淀到 Tessera。
+
+### [Tessera](https://github.com/zgx197/Tessera)
+
+Tessera 调整为由实际游戏需求驱动的世界与地图技术基线，不再脱离项目去想象完整的通用世界生成框架。现有确定性世界生成原型会继续保留；当 Sky Island Rebirth 真正需要世界尺度、区域划分、局部地图、地貌、水文、气候、持久化或 LOD 时，再针对明确的玩法问题继续完善。
+
+<details>
+  <summary>查看 Tessera 当前技术基线截图</summary>
+  <p align="center">
+    <img src="./assets/tessera-current.png" alt="Tessera 当前世界生成与调试界面" width="100%" />
+  </p>
+</details>
 
 ## 项目与实验
 
