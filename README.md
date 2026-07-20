@@ -28,12 +28,9 @@
 
 Tessera 调整为由实际游戏需求驱动的世界与地图技术基线，不再脱离项目去想象完整的通用世界生成框架。现有确定性世界生成原型会继续保留；当 Sky Island Rebirth 真正需要世界尺度、区域划分、局部地图、地貌、水文、气候、持久化或 LOD 时，再针对明确的玩法问题继续完善。
 
-<details>
-  <summary>查看 Tessera 当前技术基线截图</summary>
-  <p align="center">
-    <img src="./assets/tessera-current.png" alt="Tessera 当前世界生成与调试界面" width="100%" />
-  </p>
-</details>
+<p align="center">
+  <img src="./assets/tessera-current.png" alt="Tessera 当前世界生成与调试界面" width="100%" />
+</p>
 
 ## 项目与实验
 
