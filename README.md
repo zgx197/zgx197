@@ -14,15 +14,20 @@
 
 ### [Sky Island Rebirth](https://github.com/zgx197/sky-island-rebirth)
 
-以一款实际运行的游戏为核心，持续验证 Babylon.js 的引擎能力、项目侧 ECS、场景组织、运行时可观测性、性能边界与智能体辅助调试流程。
+灾后复苏题材的经营 + 阶段式塔防 + 探索游戏，正在切换到 Godot（C#）重新实现。当前策略是先打磨单场战斗的垂直切片，再逐步铺开营地、区块探索与真相叙事。
 
-当前里程碑：建立可观测的最小 ECS 游戏运行闭环
+此前的 Web（Babylon.js + TypeScript）实现已完整归档到 [babylonjs-lab](https://github.com/zgx197/babylonjs-lab)，保留全部历史：3D 塔防原型、自研 ECS、确定性帧录制与智能体工具链、VAT 虫群渲染、AI 绘制的卷轴世界地图。
+
+当前里程碑：搭建 Godot 版最小战斗闭环
 
 近期迭代目标：
-1. 完成纯逻辑 ECS smoke flow，并持续记录实体、组件、系统耗时和帧状态。
-2. 通过真实场景验证 Babylon.js 的渲染、资源、编辑器接入、调试和性能能力。
-3. 明确第一段可玩的核心循环，让后续技术建设始终服务于游戏体验。
-4. 从实际玩法中提炼世界、区域和局部地图需求，再把经过验证的能力沉淀到 Tessera。
+1. 用 Godot C# 重建最小 2D 战斗场景，跑通"建造 → 流场改道 → 虫群攻防"循环。
+2. 加入疏导墙、节奏化波次与最简配给经济，先把单场战斗打磨到好玩。
+3. 沿用 AI 生图工作流统一世界地图与战斗场景的美术管线。
+
+### [babylonjs-lab](https://github.com/zgx197/babylonjs-lab)
+
+Babylon.js 实验项目。首个实验：3D 塔防——自研 ECS 与固定步长模拟、确定性帧录制与 Replay、面向智能体的运行时查询 CLI、5000 实体的 VAT Thin Instance 虫群渲染、羊皮卷轴风格的 AI 生成世界地图（Seedream 分块生成 + 拼接工作流）。后续新的 Babylon 玩法与渲染实验都会放进这里。
 
 ### [Tessera](https://github.com/zgx197/Tessera)
 

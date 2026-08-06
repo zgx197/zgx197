@@ -15,9 +15,9 @@
 
 ## 当前更新重点
 
-当前阶段的首要关注对象是 `D:\UGit\Tessera\`。
+当前阶段的首要关注对象是 [Sky Island Rebirth](https://github.com/zgx197/sky-island-rebirth)（正在切换到 Godot C# 重新实现）；Babylon.js 侧的既有实现与后续实验统一归档在 [babylonjs-lab](https://github.com/zgx197/babylonjs-lab)。
 
-如果需要更新仓库说明、近期重点或项目描述，应优先与 Tessera 的当前方向保持一致，避免继续把已经降级的项目写成主线。
+如果需要更新仓库说明、近期重点或项目描述，应优先与 Sky Island Rebirth 的当前方向保持一致，避免继续把已经降级的项目写成主线。
 
 ## AI 协作原则
 
